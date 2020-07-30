@@ -7,3 +7,4 @@ I decided that styling these legal documents without using lists is more maintai
 
 
 One wish I have is that I can make this WYSIWYG and/or Markdown and then I can export and use it in the projects and not worry about ugly styling in legal documents on the web. 
+
