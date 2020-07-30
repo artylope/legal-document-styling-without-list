@@ -9,6 +9,14 @@ body {
   padding-bottom: 50px;
 }
 
+code {
+  background-color: #eee;
+  padding: 0px 5px;
+  border-radius: 3px;
+  color: grey;
+  margin: 0px 3px;
+}
+
 .legal {
   max-width: 80ch;
   margin: 0 auto;
@@ -31,7 +39,7 @@ body {
 .legal .spacing-top {
   margin-top: 3em;
 }
-.legal .clause-set-group {
+.legal .clause-set-child-group {
   margin-left: 2em;
   margin-bottom: 3em;
 }
