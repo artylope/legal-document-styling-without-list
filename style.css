@@ -20,6 +20,8 @@ code {
 .legal {
   max-width: 80ch;
   margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .legal * {
   box-sizing: border-box;
@@ -70,4 +72,11 @@ code {
 }
 .legal .clause-set .clause-text p {
   margin-top: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .legal {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

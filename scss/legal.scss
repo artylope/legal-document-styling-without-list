@@ -4,6 +4,8 @@ $vertical-margin: 3em;
 .legal {
   max-width: 80ch;
   margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 
   * {
     box-sizing: border-box;
@@ -66,5 +68,12 @@ $vertical-margin: 3em;
         margin-top: 0;
       }
     }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .legal{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
