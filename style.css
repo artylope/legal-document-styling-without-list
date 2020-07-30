@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap");
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.4;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .legal {
-  max-width: 70ch;
+  max-width: 80ch;
   margin: 0 auto;
 }
 .legal * {
@@ -25,19 +31,7 @@ body {
 .legal .spacing-top {
   margin-top: 3em;
 }
-.legal .first-layer {
-  margin-left: 2em;
-  margin-bottom: 3em;
-}
-.legal .first-layer .second-layer {
-  margin-left: 2em;
-  margin-bottom: 3em;
-}
-.legal .first-layer .second-layer .third-layer {
-  margin-left: 2em;
-  margin-bottom: 3em;
-}
-.legal .first-layer .second-layer .third-layer .fourth-layer {
+.legal .clause-set-group {
   margin-left: 2em;
   margin-bottom: 3em;
 }
@@ -56,8 +50,8 @@ body {
 }
 .legal .clause-set .clause-numbering i {
   font-size: 0.3em;
-  margin-left: 1.5em;
-  margin-top: 1em;
+  margin-left: 2em;
+  margin-top: 1.5em;
 }
 .legal .clause-set .clause-text {
   flex: 1;
@@ -65,4 +59,7 @@ body {
 .legal .clause-set .clause-text .subtitle {
   font-weight: bold;
   margin-bottom: 10px;
+}
+.legal .clause-set .clause-text p {
+  margin-top: 0;
 }
