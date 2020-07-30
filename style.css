@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 body {
   margin: 0;
   padding: 0;
   line-height: 1.4;
-  font-family: "Mukta", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -15,6 +15,12 @@ code {
   border-radius: 3px;
   color: grey;
   margin: 0px 3px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .legal {
@@ -42,7 +48,7 @@ code {
   margin-top: 3em;
 }
 .legal .clause-set-child-group {
-  margin-left: 2em;
+  margin-left: 3em;
   margin-bottom: 3em;
 }
 .legal .clause-set {
@@ -54,14 +60,15 @@ code {
   margin-bottom: 1em;
 }
 .legal .clause-set .clause-numbering {
-  flex: 0 0 2em;
+  flex: 0 0 3em;
   display: flex;
   justify-content: flex-start;
+  width: 100%;
 }
 .legal .clause-set .clause-numbering i {
   font-size: 0.3em;
   margin-left: 2em;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 .legal .clause-set .clause-text {
   flex: 1;

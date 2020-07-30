@@ -1,4 +1,4 @@
-$numbering-width: 2em;
+$numbering-width: 3em;
 $vertical-margin: 3em;
 
 .legal {
@@ -49,16 +49,17 @@ $vertical-margin: 3em;
       flex: 0 0 $numbering-width;
       display: flex;
       justify-content: flex-start;
+      width: 100%;
 
       i {
         font-size: 0.3em;
         margin-left: 2em;
-        margin-top: 1.5em;
+        margin-top: 2em;
       }
     }
     .clause-text {
       flex: 1;
-      
+
       .subtitle{
         font-weight: bold;
         margin-bottom: 10px;
