@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+code {
+  background-color: #eee;
+  padding: 0px 5px;
+  border-radius: 3px;
+  color: dimgrey;
+  margin: 0px 3px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.legal {
+  max-width: 80ch;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.legal * {
+  box-sizing: border-box;
+}
+.legal .legal-section {
+  margin-bottom: 5em;
+}
+.legal .legal-section h2,
+.legal .legal-section h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.legal .center {
+  text-align: center;
+}
+.legal .spacing-top {
+  margin-top: 3em;
+}
+.legal .clause-set-child-group {
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+.legal .clause-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.legal .clause-set .clause-numbering {
+  flex: 0 0 3em;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.legal .clause-set .clause-numbering i {
+  font-size: 0.3em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.legal .clause-set .clause-text {
+  flex: 1;
+}
+.legal .clause-set .clause-text .subtitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.legal .clause-set .clause-text p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .legal {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
